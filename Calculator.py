@@ -40,4 +40,4 @@ def main():
             main()
         else:
             exit()
-# main()
+main()

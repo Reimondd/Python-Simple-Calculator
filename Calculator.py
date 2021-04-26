@@ -5,7 +5,7 @@ import time
 def main():
     print("Very cool calculator")
     N1 = float(input("\nEnter the first number: "))
-    Calc = input("What calculation do you want to preform?: ")
+    Calc = input("What calculation do you want to preform? (*, /, +, -) : ")
     N2 = float(input("Enter the second number: "))
     if Calc == "+":
         print(N1 + N2)
